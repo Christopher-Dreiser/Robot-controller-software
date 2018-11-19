@@ -1,6 +1,6 @@
 # Robot Controller Software
 
-This controller software makes use of the ARIA library to move a Pioneer robot connected over serial. To be used in conjunction with the [Robot Controller Interface](https://github.com/Christopher-Dreiser/Robot-Controller-Interface)
+This controller software makes use of the ARIA library to move a Pioneer robot connected over serial. To be used in conjunction with the [Robot Controller Interface](https://github.com/Christopher-Dreiser/Robot-Controller-Interface).
 
 ## Deployment
 
