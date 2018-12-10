@@ -14,9 +14,11 @@ public class Receiver
 {
     static {
         try {
-            System.loadLibrary("AriaJava");
+            File lib = new File("lib/" + System.mapLibraryName("AriaJava"));
+            System.load(lib.getAbsolutePath());
         } catch(UnsatisfiedLinkError e) {
-            System.err.println("Native code library (libAriaJava.so or AriaJava.dll) failed to load. Make sure that it is in your library path.");
+            //System.err.println("Native code library (libAriaJava.so or AriaJava.dll) failed to load. Make sure that it is in your library path.");
+            e.printStackTrace();
             System.exit(1);
         }
     }
